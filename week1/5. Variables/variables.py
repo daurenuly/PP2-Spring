@@ -1,4 +1,4 @@
-x = 5
+x = 5.3322312321
 y = "Hello, World!"
-print(type(x))
-print(type(y))
+print(x)
+print(y)
