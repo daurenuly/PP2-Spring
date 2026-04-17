@@ -31,7 +31,7 @@ def main():
                 if event.key == pygame.K_ESCAPE:
                     return
 
-                # 🎨 Colors
+                #  Colors
                 if event.key == pygame.K_1:
                     color = (255, 0, 0)
                 elif event.key == pygame.K_2:

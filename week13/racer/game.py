@@ -156,7 +156,7 @@ while True:
         coins.add(new_coin)
         all_sprites.add(new_coin)
 
-    # -------- COLLISION: PLAYER & ENEMY --------
+    # ------- COLLISION: PLAYER & ENEMY --------
     if pygame.sprite.spritecollideany(P1, enemies):
         pygame.mixer.Sound('C://Users//abyla//OneDrive//Документы//PP2//week13//pygametutorial//crash.wav').play()
         time.sleep(0.5)

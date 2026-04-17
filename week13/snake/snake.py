@@ -111,7 +111,7 @@ class SnakeGame:
             if not self.food_spawn:
                 self.spawn_food()
 
-            # Graphics
+            #Graphics
             self.display.fill(COLOR_BLACK)
             for pos in self.snake_body:
                 pygame.draw.rect(self.display, COLOR_GREEN, pygame.Rect(pos[0], pos[1], BLOCK_SIZE, BLOCK_SIZE))
