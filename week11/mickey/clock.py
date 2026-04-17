@@ -16,7 +16,7 @@ class MickeyClock:
         self.center = (self.WIDTH // 2, self.HEIGHT // 2)
 
         
-        self.background = pygame.image.load("images/mickeyclock.jpeg")
+        self.background = pygame.image.load("C:\\Users\\abyla\\OneDrive\\Документы\\PP2\\week11\\mickey\\images\\mickeyclock.jpeg")
         self.background = pygame.transform.scale(
             self.background, (self.WIDTH, self.HEIGHT)
         )
